@@ -1,0 +1,134 @@
+*{
+    font-size: 40px;
+}
+body{
+    background-color: #17171b;
+    padding: 10px 100px;
+    margin: 0px;
+}
+ul{list-style : none;}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-shadow: 0px 10px 30px rgb(67, 255, 239) , 0px -10px 60px rgb(161, 255, 224);
+}
+
+
+/* navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -20px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+nav ul{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border: 6px solid transparent;
+    border-radius: 90px;
+    background-image: linear-gradient( #17171b ,#17171b), radial-gradient(circle at top left, #cfffff, #f3454e);
+    background-origin: border-box;
+    background-clip:  content-box,border-box;
+}
+nav ul span{
+    display: block;
+    padding: 10px;
+}
+nav a{
+    color: rgb(243, 243, 243);
+    font-weight: 460;
+    font-size: 35px;
+}
+
+
+#home{
+    font-weight: 600;
+    color: rgb(38, 61, 61);
+
+    border: 6px solid transparent;
+    border-radius: 30px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 0px;
+    background-image:radial-gradient(circle at top left, rgb(207, 255, 255), rgb(69, 164, 243));
+    background-origin: border-box;
+    background-clip: content-box;
+}
+#home span{
+    display: block;
+    padding: 15px;
+}
+#logo{
+    font-weight: 700;
+    color: #421d1d;
+
+    border: 6px solid transparent;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 80px;
+
+    background-image: radial-gradient(circle at top left, rgb(255, 139, 139), rgb(255, 110, 199));
+    background-origin: border-box;
+    background-clip: content-box;
+
+}
+#logo span{
+    display: block;
+    padding: 15px;
+}
+#logo:hover{
+    text-shadow: 0px 20px 30px #fa7b7b , 0px -20px 60px #ffa1a1;
+}
+/* section */
+.seg1{
+    padding:150px 0px 0px 90px;
+}
+.seg1 h1{
+    color: #f86b6b;
+    font-size: 80px;
+    margin: 5px;
+} 
+.seg1 h2{
+    color: white;
+    font-size: 40px;
+    margin: 5px;
+} 
+.seg1 span{
+    display: inline-flex;
+} 
+.seg1 p{
+    font-size: 40px;
+    margin:5px;
+} 
+
+/* aside */
+.seg2 {
+    float: left;
+    height: 700px;
+    margin: 20px;
+    width: 230px;
+    background-image: url(res/images/web.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15%;
+}
+
+
+.anim {
+    opacity: 0;
+    transform: translatey(30%);
+    animation: intro 0.5s linear forwards;
+}
+
+@keyframes intro{
+    100%{
+        opacity: 1;
+        transform: translatey(0%);
+    }
+}
