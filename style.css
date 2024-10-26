@@ -62,7 +62,6 @@ nav a {
 /* main */
 main section{
     width: 250px;
-    height: 400px;
     margin:160px auto;
     margin-bottom: 0px;
 }
@@ -86,4 +85,12 @@ footer span{
 footer a{
     font-size: 25px;
     color: #000000d0;
+}
+
+/* images */
+
+#web2{
+    width: 400px;
+    float: left;
+    margin-left: -50px;
 }
