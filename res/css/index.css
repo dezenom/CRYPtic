@@ -141,10 +141,10 @@ h1{
 
 @media (max-width:768px){
     p{
-        font-size: 15px;
+        font-size: 10px;
     }
     h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .container{
         grid-template-columns: 1fr;
